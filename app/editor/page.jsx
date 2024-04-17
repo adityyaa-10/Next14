@@ -151,11 +151,6 @@ const extensions = [
 
 
 const content = `
- <ul>
-    <li>Hello</li>
-    <li>Hello</li>
-    <li>Hello</li>
- </ul>
 `;
 
 const RichTextEditor = () => {
