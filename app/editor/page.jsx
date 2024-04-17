@@ -128,22 +128,34 @@ const MenuBar = () => {
 };
 
 const extensions = [
-    Color.configure({ types: [TextStyle.name, ListItem.name] }),
-    TextStyle.configure({ types: [ListItem.name] }),
+    Color,
+    ListItem,
+    TextStyle,
     StarterKit.configure({
         bulletList: {
+            HTMLAttributes: {
+                class: 'bullet-list',
+            },
             keepMarks: true,
             keepAttributes: true,
         },
         orderedList: {
+            HTMLAttributes: {
+                class: 'ordered-list',
+            },
             keepMarks: true,
             keepAttributes: true,
         },
     }),
 ];
 
+
 const content = `
-<h2>Start Typing</h2>
+ <ul>
+    <li>Hello</li>
+    <li>Hello</li>
+    <li>Hello</li>
+ </ul>
 `;
 
 const RichTextEditor = () => {
