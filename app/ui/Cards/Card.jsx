@@ -9,13 +9,13 @@ const TestimonialCard = ({ date, role, title, description, author }) => {
     useEffect(() => {
         const timer = setTimeout(() => {
             setIsLoading(false);
-        }, 400); // Show skeleton for 2 seconds
+        }, 400);
 
-        return () => clearTimeout(timer); // Clean up timer on component unmount
+        return () => clearTimeout(timer);
     }, []);
 
     return (
-        <div className={`py-8 px-6 md:w-1/2 lg:w-1/3 ${isLoading ? 'animate-pulse' : ''}`}>
+        <div className={`py-8 px-6 w-full md:w-1/2 xl:w-1/3 ${isLoading ? 'animate-pulse' : ''}`}>
             {isLoading ? (
                 <>
                     <div className="animate-pulse space-y-4">
