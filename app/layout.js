@@ -14,8 +14,9 @@ export default function RootLayout({ children }) {
       <body>
         <div className='float-left'>
           <SideNavbar />
+          {/* <Sidebar /> */}
         </div>
-        <div className="lg:ml-60 ">
+        <div className="lg:ml-64 ">
           {children}
         </div>
       </body>

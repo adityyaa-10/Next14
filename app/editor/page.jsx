@@ -1,6 +1,8 @@
-import React from 'react'
-import dynamic from 'next/dynamic'
-const Editor = dynamic(() => import('../editor/Editor'), { ssr: false })
+"use client";
+import React from 'react';
+import dynamic from 'next/dynamic';
+const Editor = dynamic(() => import('../editor/Editor'), { ssr: false });
+
 const RTE = () => {
     return (
         <div className='flex justify-center items-center min-h-screen bg-gray-100'>
@@ -11,13 +13,14 @@ const RTE = () => {
                     <h1 className='text-md font-semibold text-gray-800'>Text Editor</h1>
                 </div>
 
-                {/* Editor Content */}
-                <div className='p-6'>
+                {/* Editor Content with scrolling */}
+                <div className='p-6' style={{ maxHeight: '60vh', overflowY: 'auto' }}>
+                    {/* Set maxHeight and overflowY to control scrolling */}
                     <Editor />
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default RTE
+export default RTE;

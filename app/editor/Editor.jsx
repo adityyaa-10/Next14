@@ -1,6 +1,5 @@
 "use client";
 import React, { useState, useEffect, useRef } from "react";
-
 export default function Editor() {
     const [isMounted, setIsMounted] = useState(false);
     const ref = useRef();
@@ -28,6 +27,8 @@ export default function Editor() {
                             levels: [2, 3, 4], // Allow different header levels
                         },
                         inlineToolbar: true,
+                        classes: 'text-3xl font-bold',
+
                     },
                     list: {
                         class: List,
