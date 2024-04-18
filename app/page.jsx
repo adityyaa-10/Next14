@@ -53,24 +53,30 @@ const App = () => {
   }, [loading, visibleCards]); // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
-    <section className="text-gray-600 body-font mx-auto w-full">
-      <div className="container px-5 md:px-11 py-11 mx-auto">
-        <div className="flex flex-wrap">
-          {visibleCards.map((card, index) => (
-            <Card
-              key={index}
-              date={card.date}
-              role={card.role}
-              title={card.title}
-              description={card.description}
-              author={card.author}
-            />
-          ))}
-          {loading && (
-            <div className="spinner-container">
-              <div className="spinner"></div>
-            </div>
-          )}
+    <section className='bg-[#fafafa] w-full py-24'>
+      <div className="text-gray-600 body-font border bg-white mx-auto max-w-screen-lg rounded-lg">
+        <div className='pl-4 pt-4 pr-4'>
+          <div class=" flex items-center w-full justify-between p-4 bg-[#f0e6ff] border border-gray-200 md:gap-x-4 rounded-md">
+            <p class="text-md leading-8 text-gray-800 "><span className='font-bold'>Lorem ipsum dolor sit amet.</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum incidunt omnis inventore velit?</p>
+          </div>
+        </div>
+        <div className="container mx-auto">
+          <div className="flex flex-wrap p-2">
+            {visibleCards.map((card, index) => (
+              <Card
+                key={index}
+                status={card.status}
+                title={card.title}
+                description={card.description}
+                author={card.author}
+              />
+            ))}
+            {loading && (
+              <div className=" fixed bottom-0 left-0 right-0 flex justify-center items-center h-16">
+                <div className="spinner"></div>
+              </div>
+            )}
+          </div>
         </div>
       </div>
     </section>
