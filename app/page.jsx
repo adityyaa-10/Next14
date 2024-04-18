@@ -56,8 +56,8 @@ const App = () => {
     <section className='bg-[#fafafa] w-full py-24'>
       <div className="text-gray-600 body-font border bg-white mx-auto max-w-screen-lg rounded-lg">
         <div className='pl-4 pt-4 pr-4'>
-          <div class=" flex items-center w-full justify-between p-4 bg-[#f0e6ff] border border-gray-200 md:gap-x-4 rounded-md">
-            <p class="text-md leading-8 text-gray-800 "><span className='font-bold'>Lorem ipsum dolor sit amet.</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum incidunt omnis inventore velit?</p>
+          <div className=" flex items-center w-full justify-between p-4 bg-[#f0e6ff] border border-gray-200 md:gap-x-4 rounded-md">
+            <p className="text-md leading-8 text-gray-800 "><span className='font-bold'>Lorem ipsum dolor sit amet.</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum incidunt omnis inventore velit?</p>
           </div>
         </div>
         <div className="container mx-auto">
