@@ -9,8 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@editorjs/checklist": "^1.6.0",
+    "@editorjs/code": "^2.9.0",
+    "@editorjs/delimiter": "^1.4.0",
     "@editorjs/editorjs": "^2.29.1",
     "@editorjs/header": "^2.8.1",
+    "@editorjs/inline-code": "^1.5.0",
+    "@editorjs/list": "^1.9.0",
+    "@editorjs/marker": "^1.4.0",
+    "@editorjs/quote": "^2.6.0",
+    "@editorjs/table": "^2.3.0",
     "@headlessui/react": "^1.7.19",
     "next": "14.2.1",
     "react": "^18",
