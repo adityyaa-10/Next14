@@ -28,8 +28,8 @@ function SideNavbar() {
                                 <img className="w-24" src="https://images.jumpstart.me/frontend/brand/brand-logo-combined.svg" alt="logo" />
                             </div>
                             <div className="flex">
-                                <FaCog className="text-md text-gray-400 mr-2" />
-                                <FaRegBell className="text-md text-gray-400 ml-2" />
+                                <FaCog className="text-md text-gray-400 mr-1 hidden lg:flex" />
+                                <FaRegBell className="text-md text-gray-400 ml-1 hidden lg:flex" />
                             </div>
 
                         </div>
