@@ -67,7 +67,7 @@ function SideNavbar() {
                             <div className="text-xs capitalize font-normal leading-[150%] pt-8 px-6 pb-3">
                                 <h3>DIRECT MESSAGES</h3>
                             </div>
-                            <div className="relative mx-6">
+                            <div className="relative mx-6 hidden lg:flex">
                                 <input
                                     type="text"
                                     placeholder="Search"
