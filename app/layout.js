@@ -1,6 +1,7 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import SideNavbar from "./ui/SideNavbar";
+import BottomNavigation from "./ui/BottomNavigation";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -12,13 +13,14 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className='float-left'>
+        <div className=''>
           <SideNavbar />
           {/* <Sidebar /> */}
         </div>
-        <div className="lg:ml-64 ">
+        <div className="lg:ml-72 ">
           {children}
         </div>
+        <BottomNavigation />
       </body>
     </html>
   );
