@@ -1,15 +1,19 @@
 /* eslint-disable @next/next/no-img-element */
 "use client"
 
-import React from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { Disclosure } from "@headlessui/react";
 import Link from "next/link";
+import Image from "next/image";
 import { IoHome } from "react-icons/io5";
 import { PiSuitcaseSimple } from "react-icons/pi";
 import { FaRegCalendarDays, FaRegBuilding, FaRegBell } from "react-icons/fa6";
 import { FaCog } from "react-icons/fa";
 import { RiSearchLine } from 'react-icons/ri';
+import HomeIcon from "@/app/assets/Home.svg";
+import CompanyIcon from "@/app/assets/Companies.svg";
+import EventsIcon from "@/app/assets/Events.svg";
+import JobIcon from "@/app/assets/Jobs.svg";
 
 function SideNavbar() {
     return (
@@ -37,26 +41,27 @@ function SideNavbar() {
                     <div className="flex flex-col justify-between flex-1 pt-3 px-1 pb-20 h-full  ">
                         <div className="space-y-3 text-[#0e0e0e] ">
                             <Link href='/' className="flex items-center px-6 min-w-64 min-h-10 font-semibold active:bg-[#FFF9FA]">
-                                <div className="mr-4 text-2xl">
-                                    <IoHome />
+                                <div className="mr-4 ">
+
+                                    <Image width={23} height={23} src={HomeIcon} alt="Home" />
                                 </div>
                                 <span className="text-sm font-normal leading-[130%]">Home</span>
                             </Link>
                             <Link href='/' className="hidden lg:flex items-center px-6 min-w-64 min-h-10 font-semibold active:bg-[#FFF9FA]">
-                                <div className="mr-4 text-2xl">
-                                    <PiSuitcaseSimple />
+                                <div className="mr-4 ">
+                                    <Image width={23} height={23} src={JobIcon} alt="Home" />
                                 </div>
                                 <span className="text-sm font-normal leading-[130%]">Jobs</span>
                             </Link>
                             <Link href='/' className="hidden lg:flex items-center px-6 min-w-64 min-h-10 font-semibold active:bg-[#FFF9FA]">
-                                <div className="mr-4 text-2xl">
-                                    <FaRegCalendarDays />
+                                <div className="mr-4 ">
+                                    <Image width={23} height={23} src={EventsIcon} alt="Home" />
                                 </div>
                                 <span className="text-sm font-normal leading-[130%]">Events</span>
                             </Link>
                             <Link href='/' className="hidden lg:flex items-center px-6 min-w-64 min-h-10 font-semibold active:bg-[#FFF9FA]">
-                                <div className="mr-4 text-2xl">
-                                    <FaRegBuilding />
+                                <div className="mr-4 ">
+                                    <Image width={23} height={23} src={CompanyIcon} alt="Home" />
                                 </div>
                                 <span className="text-sm font-normal leading-[130%]">Companies</span>
                             </Link>
