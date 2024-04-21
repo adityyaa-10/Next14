@@ -6,8 +6,8 @@ import cardData from './ui/Cards/cardData';
 const App = () => {
 
   return (
-    <section className='bg-[#fafafa] w-full py-24'>
-      <div className="text-gray-600 body-font border bg-white mx-auto max-w-screen-lg rounded-lg">
+    <section className='bg-[#fafafa] w-full py-4'>
+      <div className="text-gray-600 border bg-white mx-auto max-w-screen-lg rounded-lg">
         <div className='p-4'>
           <div className="flex items-center w-full justify-between p-4 bg-[#f0e6ff] border border-gray-200 md:gap-x-4 rounded-md">
             <p className="text-md text-gray-800 selection:bg-[#DAF996]">

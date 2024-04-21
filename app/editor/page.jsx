@@ -1,7 +1,7 @@
 "use client";
 import React from 'react';
 import dynamic from 'next/dynamic';
-const Editor = dynamic(() => import('../editor/Editor'), { ssr: false });
+const Editor = dynamic(() => import('./Editor'), { ssr: false });
 
 const RTE = () => {
     return (

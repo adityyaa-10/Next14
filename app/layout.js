@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import SideNavbar from "./ui/SideNavbar";
 import BottomNavigation from "./ui/BottomNavigation";
+import TopBar from "./ui/TopBar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -16,8 +17,10 @@ export default function RootLayout({ children }) {
         <div className=''>
           <SideNavbar />
           {/* <Sidebar /> */}
+
         </div>
-        <div className="lg:ml-72 ">
+        <div className="lg:ml-72">
+          <TopBar />
           {children}
         </div>
         <BottomNavigation />
