@@ -37,7 +37,7 @@ const TestimonialCard = ({ status, title, description, author }) => {
                     </div>
                 </>
             ) : (
-                <div className="mx-auto h-full p-4 bg-white border rounded-[4px] shadow-sm flex flex-col justify-between cursor-pointer selection:bg-[#DAF996] ">
+                <div className="mx-auto h-full p-4 bg-white border rounded-md shadow-sm flex flex-col justify-between cursor-pointer">
                     <div>
                         <div className="flex items-center justify-between">
                             <span className="bg-[#DAF996] py-1 px-2 rounded-sm font-semibold text-xs leading-4 text-black">{status}</span>
@@ -49,7 +49,7 @@ const TestimonialCard = ({ status, title, description, author }) => {
                             <h2 href="#" className="text-lg leading-6 text-start font-semibold text-gray-800 tracking-normal">
                                 {title}
                             </h2>
-                            <p className="mt-2 text-gray-700 leading-7 tracking-normal">{description}</p>
+                            <p className="mt-2 text-[#0e0e0e] leading-7 tracking-normal">{description}</p>
                         </div>
                     </div>
                     <div className="flex items-center mt-4">

@@ -14,12 +14,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className=''>
+        <div className='selection:bg-[#DAF996]'>
           <SideNavbar />
           {/* <Sidebar /> */}
 
         </div>
-        <div className="lg:ml-72">
+        <div className="lg:ml-72 selection:bg-[#DAF996] ">
           <TopBar />
           {children}
         </div>
