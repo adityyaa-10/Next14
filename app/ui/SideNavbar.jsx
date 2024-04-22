@@ -1,7 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
 import { useState } from 'react';
-import { Disclosure } from '@headlessui/react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { FaRegBell, FaCog } from 'react-icons/fa';
@@ -44,13 +43,13 @@ function SideNavbar() {
 
     return (
         <div>
-            <Disclosure as="nav">
-                <Disclosure.Button className="absolute top-4 left-4 inline-flex items-center peer justify-center rounded-md p-2 text-gray-800   focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white group">
+            <nav >
+                <button className="absolute top-4 left-4 inline-flex items-center peer justify-center rounded-md p-2 text-gray-800   focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white group">
                     <GiHamburgerMenu
                         className="block lg:hidden h-6 w-6"
                         aria-hidden="true"
                     />
-                </Disclosure.Button>
+                </button>
 
 
                 <div className="w-72 h-screen bg-white shadow-lg z-20 fixed top-0 -left-96 lg:left-0 lg:w-72 peer-focus:left-0 peer:transition ease-out delay-150 duration-200">
@@ -100,7 +99,7 @@ function SideNavbar() {
 
                     </div>
                 </div>
-            </Disclosure>
+            </nav>
         </div>
     );
 }
