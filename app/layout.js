@@ -1,7 +1,6 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
 import SideNavbar from "./ui/SideNavbar";
-import BottomNavigation from "./ui/BottomNavigation";
 import TopBar from "./ui/TopBar";
 const inter = Inter({ subsets: ["latin"] });
 
@@ -13,17 +12,16 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={`${inter.className} bg-[#fafafa]`}>
         <div className='selection:bg-[#DAF996]'>
           <SideNavbar />
           {/* <Sidebar /> */}
 
         </div>
-        <div className="lg:ml-72 selection:bg-[#DAF996] ">
+        <div className="lg:ml-72 selection:bg-[#DAF996]  ">
           <TopBar />
           {children}
         </div>
-        <BottomNavigation />
       </body>
     </html>
   );
