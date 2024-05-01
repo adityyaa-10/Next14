@@ -4,8 +4,7 @@ import FirstCard from "./ui/FirstCard";
 const App = () => {
 
   return (
-    <section className='bg-[#fafafa] w-full py-4 px-0 sm:px-4 lg:px-0'>
-
+    <section className='bg-[#fafafa] w-full py-4 px-0 sm:px-4 lg:px-0 relative'>
       <div>
         <FirstCard />
       </div>

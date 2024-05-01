@@ -18,18 +18,17 @@ export default function Editor() {
         if (ref.current) {
             const editor = new EditorJS({
                 holder: ref.current,
-                placeholder: 'Let`s write an awesome story!',
+                placeholder: 'Post Description',
                 tools: {
-                    header: {
-                        class: Header,
-                        config: {
-                            placeholder: 'Type / for commands',
-                            levels: [2, 3, 4], // Allow different header levels
-                        },
-                        inlineToolbar: true,
-                        classes: 'text-3xl font-bold',
-
-                    },
+                    // header: {
+                    //     class: Header,
+                    //     config: {
+                    //         placeholder: 'Type / for commands',
+                    //         levels: [2, 3, 4], // Allow different header levels
+                    //     },
+                    //     inlineToolbar: true,
+                    //     classes: 'text-3xl font-bold',
+                    // },
                     list: {
                         class: List,
                         inlineToolbar: true,
@@ -111,7 +110,7 @@ export default function Editor() {
 
     return (
         <>
-            <div ref={ref} className="" />
+            <div ref={ref} className=" p-4" />
             {/* <button onClick={save}>Save</button> */}
         </>
     )
