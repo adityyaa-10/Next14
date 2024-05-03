@@ -2,7 +2,7 @@
 
 const FullPagePost = () => {
     return (
-        <div className="px-4 lg:px-8 py-4 border border-[#d7d7d7] bg-white rounded-[10px] mx-auto max-w-[929px]">
+        <div className="px-4 lg:px-8 py-4 border border-[#d7d7d7] bg-white rounded-[10px]">
             <div>
                 <h2 className="text-xl font-medium leading-7 text-[#141417] text-left max-w-[850px] tracking-tight" tabIndex="0" role="link">
                     NMIMS Hyderabad asks unplaced students to “opt out” of placements. The

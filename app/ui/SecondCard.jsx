@@ -2,7 +2,7 @@
 
 const SecondCard = () => {
     return (
-        <div className="px-4 lg:px-8 py-4 border border-[#d7d7d7] bg-white rounded-[10px] mx-auto max-w-[929px]">
+        <div className="px-4 lg:px-8 py-4 border border-[#d7d7d7] bg-white rounded-[10px]">
             <div>
                 <h2 className="text-xl font-medium leading-[27.28px] text-[#141417]" tabIndex="0" role="link">
                     NMIMS Hyderabad asks unplaced students to “opt out” of placements....
@@ -10,7 +10,7 @@ const SecondCard = () => {
             </div>
 
             <div className="pt-4 pb-1">
-                <p className="text-[#4A94FA] text-base font-normal">#masters #abroad #usa</p>
+                <p className="text-[#4A94FA] text-base font-normal">#placements #b-school #placementstats</p>
             </div>
 
             <div className="flex justify-center pr-6 pt-4">

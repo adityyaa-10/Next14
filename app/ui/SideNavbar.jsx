@@ -1,6 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
-import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { FaRegBell, FaCog } from 'react-icons/fa';
@@ -10,9 +9,11 @@ import HomeIcon from '@/app/assets/Home.svg';
 import CompanyIcon from '@/app/assets/Companies.svg';
 import EventsIcon from '@/app/assets/Events.svg';
 import JobIcon from '@/app/assets/Jobs.svg';
+import { usePathname } from 'next/navigation'
 
-function SideNavbar() {
-    const [selectedItem, setSelectedItem] = useState('Home');
+function Sidebar() {
+
+    const pathname = usePathname()
 
     const menuItems = [
         {
@@ -20,26 +21,8 @@ function SideNavbar() {
             icon: HomeIcon,
             link: '/',
         },
-        {
-            title: 'Jobs',
-            icon: JobIcon,
-            link: '/jobs',
-        },
-        {
-            title: 'Events',
-            icon: EventsIcon,
-            link: '/events',
-        },
-        {
-            title: 'Companies',
-            icon: CompanyIcon,
-            link: '/companies',
-        },
     ];
 
-    const handleItemClick = (itemTitle) => {
-        setSelectedItem(itemTitle); // Update selected item
-    };
 
     return (
         <nav >
@@ -67,8 +50,8 @@ function SideNavbar() {
                 <div className="flex flex-col flex-1 pt-3 pr-5 pb-20 h-full">
                     <div className="space-y-3 text-[#0e0e0e]">
                         {menuItems.map((item, index) => (
-                            <Link key={index} href={item.link} passHref onClick={() => handleItemClick(item.title)}
-                                className={`relative flex items-center py-1 px-6 min-w-64 min-h-10 font-semibold ${selectedItem === item.title ? 'bg-[#FFF9FA] mr-3 rounded-e-md after:block after:content-[""] after:absolute after:top-0 after:left-0 after:w-1 after:h-full after:bg-black after:rounded-md' : ''
+                            <Link key={index} href={item.link} passHref
+                                className={`relative flex items-center py-1 px-6 min-w-64 min-h-10 font-semibold ${pathname === item.link || pathname === item.link2 ? 'bg-[#FFF9FA] mr-3 rounded-e-md after:block after:content-[""] after:absolute after:top-0 after:left-0 after:w-1 after:h-full after:bg-black after:rounded-md' : ''
                                     }`}>
                                 <div className="mr-4">
                                     <Image src={item.icon} alt={item.title} width={24} height={24} />
@@ -102,4 +85,4 @@ function SideNavbar() {
     );
 }
 
-export default SideNavbar;
+export default Sidebar;
