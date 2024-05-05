@@ -1,24 +1,52 @@
+/* eslint-disable react/no-unescaped-entities */
 /* eslint-disable @next/next/no-img-element */
 
 const FullPagePost = () => {
     return (
-        <div className="px-4 lg:px-8 py-4 border border-[#d7d7d7] bg-white rounded-[10px]">
+        <div className="pl-[21px] py-[25px] border border-[#d7d7d7] bg-white rounded-[10px]">
             <div>
                 <h2 className="text-xl font-medium leading-7 text-[#141417] text-left max-w-[850px] tracking-tight" tabIndex="0" role="link">
-                    NMIMS Hyderabad asks unplaced students to “opt out” of placements. The
-                    things these B Schools will do for 100% placement
+                    Freshers need to standout from the crowd...since everyone is doing the same thing.
                 </h2>
+            </div>
+            <div className="py-3">
+                <p className="py-2 text-base font-normal leading-[27.84px] tracking-[0.01em] text-[#2C2C2C]">Took interviews in a Tier 1 college... And everyone is doing the same thing... Like doing the same questions on leetcode, mentioning similar kind of projects in their resume... Like, a Todo app using MERN, a real-time chat using socket.io or a movie recommendation system.. You know the projects which you see on the first page of YouTube search.</p>
+
+                <p className="py-2 text-base font-normal leading-[27.84px] tracking-[0.01em] text-[#2C2C2C]">And on top of it, everybody had only surface-level knowledge.. The one you get by following the tutorials blindly and doing it just for the sake of it.</p>
+
+                <p className="py-2 text-base font-normal leading-[27.84px] tracking-[0.01em] text-[#2C2C2C]">Though it shows a self-starter attitude but it is not enough.. As you took one step forward but everyone else also took that one step.. So essentially you are still a part of the crowd!</p>
+
+                <p className="py-2 text-base font-normal leading-[27.84px] tracking-[0.01em] text-[#2C2C2C]">So what to do? Be curious and do what no one is doing. Do a thing using multiple stacks. Expand the scope of the problem. Do one project and do it thoroughly.. Know its ins and outs.</p>
+
+                <p className="py-2 text-base font-normal leading-[27.84px] tracking-[0.01em] text-[#2C2C2C]">Say for example.. Everyone is creating a todo app using MERN. What you can do:</p>
+
+                <ul>
+                    <li>Create it using Postgres as well.. Make DB schema.. Read about transactions, ACID. Use Java as BE language (since it is static and compiled). So create the same project in multiple variants:</li>
+                    <ul>
+                        <li>React + Node + Mongo (usual suspect)</li>
+                        <li>React + Node + Postgres</li>
+                        <li>React + Java + Postgres</li>
+                    </ul>
+                </ul>
+
+                <p className="py-2 text-base font-normal leading-[27.84px] tracking-[0.01em] text-[#2C2C2C]">This way you will know pros and cons of these competing tech stacks and have a much better understanding of the choices you made.</p>
+
+                <p className="py-2 text-base font-normal leading-[27.84px] tracking-[0.01em] text-[#2C2C2C]">To expand the scope of the problem.. You can add say... Undo, redo, attaching an alarm with each todo and sending notification at that time (think cron job). These things will create uniqueness in a rather generic project.</p>
+
+                <p className="py-2 text-base font-normal leading-[27.84px] tracking-[0.01em] text-[#2C2C2C]">To take it a notch further, explore what is an in-memory DB, its pros and cons... use Redis...say to store alarms.</p>
+
+                <p className="py-2 text-base font-normal leading-[27.84px] tracking-[0.01em] text-[#2C2C2C]">To take it even further, learn about Docker and create a Docker Compose file which will spin up all of your components (FE, BE, DB, Redis).</p>
+
+                <p className="py-2 text-base font-normal leading-[27.84px] tracking-[0.01em] text-[#2C2C2C]">And for the "salary kitni loge" moment (3 idiots)... Have a look at Kubernetes and use Minikube.</p>
+
+                <p className="py-2 text-base font-normal leading-[27.84px] tracking-[0.01em] text-[#2C2C2C]">I think all of this can be done diligently in a couple of months and it will make you truly stand out in the crowded job market.</p>
+
+                <p className="py-2 text-base font-normal leading-[27.84px] tracking-[0.01em] text-[#2C2C2C]">Note: this is another random opinion in the sea of opinions on the internet.. So assess yourself before following it. But if you do and it doesn't work out (I'd be very surprised though) then don't hold it against me... And yeah... Send me your resume in that case.</p>
+
             </div>
 
             <div className="py-4">
-                <p className="text-[#4A94FA] text-base font-normal">#masters #abroad #usa</p>
-            </div>
-
-            <div className="flex justify-center pt-0-4 px-4 pb-9 rounded-[20px]">
-                <img
-                    src="https://s3-alpha-sig.figma.com/img/2aa2/1058/8ee27452c0382e0cd65afd0afd920f12?Expires=1715558400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=meZPbKGRLp0V1szlop9W7V4tTQ315P9p5rTKLMrKfT8tMYBJe7BXQf8ZglT8Fb7YbkisVpdLWmzKm8spHid7FrrmrWdPs8MTHlQXvW6Xrk4foizh52Rnrw-EB7dH2C0vhq51UhCJhcZOxys0Q90Yrciyn5H88wVvbsHVdip~gI~6FRJhh8-g4E8CKQ-nnCXUKhSplXRM49cO0vtaVHAffx1iVVpltM4bOdkrctuv2WVXITFZpf2DbZALPmDP1rT0zqHnHUUrovbZ0cP8SoN65CaWLZv-EHJ5RvnhJEq~3oh2egMN7rk6dzks5IIhwQsnuZhP-MZn22F68ZhK~15R8Q__"
-                    alt=""
-                    className="w-full h-full object-contain rounded-[20px]" />
+                <p className="text-[#4A94FA] text-base font-normal">#freshers #skills</p>
             </div>
         </div>
     )

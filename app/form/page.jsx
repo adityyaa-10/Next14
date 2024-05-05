@@ -1,8 +1,10 @@
 "use client";
-import React from 'react';
-import Editor from '../editor/Editor';
+import { useState } from 'react';
+import dynamic from 'next/dynamic';
+const Editor = dynamic(() => import('../editor/NewEditor'), { ssr: false });
 
 const Form = () => {
+    const [data, setData] = useState('');
     return (
         <div className='bg-white max-w-[929px] mx-auto my-2 lg:my-11 rounded-[10px] p-4 lg:p-8 border border-[#d7d7d7]'>
             <h1 className='text-xl font-medium leading-[27.28px] text-[#141417] tracking-tighter'>Create A Post</h1>
@@ -11,7 +13,14 @@ const Form = () => {
                     <input
                         type="text"
                         className="block w-full mt-1 p-2 border border-[#d7d7d7] rounded focus:outline-none focus:border-blue-500"
-                        placeholder="Enter title"
+                        placeholder="Enter short title"
+                    />
+                </div>
+                <div className="mb-6">
+                    <input
+                        type="text"
+                        className="block w-full mt-1 p-2 border border-[#d7d7d7] rounded focus:outline-none focus:border-blue-500"
+                        placeholder="Enter long title"
                     />
                 </div>
                 <div className="mb-6">
@@ -34,8 +43,8 @@ const Form = () => {
                     />
                 </div>
                 <div className='w-full border border-[#d7d7d7] rounded mb-6'>
-                    <div className='max-h-[180px] overflow-y-auto'>
-                        <Editor />
+                    <div className='pt-2 overflow-y-auto'>
+                        <Editor value={data} onChange={setData} holder="editorjs-container" />
                     </div>
                 </div>
                 <div className="mb-6">
@@ -45,7 +54,24 @@ const Form = () => {
                         placeholder="Lesson"
                     ></textarea>
                 </div>
-
+                {/* Comment Input Field */}
+                <div className="flex justify-end">
+                    <p className="pt-2 pb-6 ml-1 font-medium text-[#034D13] tracking-[0.01em] text-[15px] leading-[18.6px]">
+                        Add Comment
+                    </p>
+                </div>
+                <div className="mb-6">
+                    <textarea
+                        type="text"
+                        className="block w-full h-[112px] p-2 border border-[#d7d7d7] rounded-t focus:outline-none focus:border-blue-500"
+                        placeholder="Write a comment..."
+                    />
+                    <div className="flex justify-end items-center  border border-t-0 py-3 px-5 border-[#d7d7d7]">
+                        <button className="text-[#4E88D8] text-[15px] leading-[18.6px] font-medium focus:outline-none mr-8">Reply</button>
+                        <button className="text-[#F25424] text-[15px] leading-[18.6px] font-medium focus:outline-none">Delete</button>
+                    </div>
+                </div>
+                {/* Submit Button */}
                 <div className="flex justify-end">
                     <button
                         type="submit"
@@ -54,8 +80,8 @@ const Form = () => {
                         Submit
                     </button>
                 </div>
-            </form >
-        </div >
+            </form>
+        </div>
     );
 };
 

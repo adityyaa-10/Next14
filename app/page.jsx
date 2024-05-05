@@ -1,6 +1,7 @@
 import SecondCard from "./ui/SecondCard";
 import FirstCard from "./ui/FirstCard";
 import Link from "next/link";
+import ThirdCard from "./ui/ThirdCard";
 
 const App = () => {
 
@@ -22,6 +23,9 @@ const App = () => {
 
       <div className="py-4">
         <SecondCard />
+      </div>
+      <div className="py-4">
+        <ThirdCard />
       </div>
     </section>
   );

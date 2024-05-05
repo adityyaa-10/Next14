@@ -6,7 +6,6 @@ export default function Editor() {
 
     const initializeEditor = async () => {
         const EditorJS = (await import("@editorjs/editorjs")).default
-        const Header = (await import("@editorjs/header")).default
         const List = (await import("@editorjs/list")).default
         const Quote = (await import("@editorjs/quote")).default
         const InlineCode = (await import("@editorjs/inline-code")).default
@@ -20,15 +19,6 @@ export default function Editor() {
                 holder: ref.current,
                 placeholder: 'Post Description',
                 tools: {
-                    // header: {
-                    //     class: Header,
-                    //     config: {
-                    //         placeholder: 'Type / for commands',
-                    //         levels: [2, 3, 4], // Allow different header levels
-                    //     },
-                    //     inlineToolbar: true,
-                    //     classes: 'text-3xl font-bold',
-                    // },
                     list: {
                         class: List,
                         inlineToolbar: true,
@@ -110,7 +100,7 @@ export default function Editor() {
 
     return (
         <>
-            <div ref={ref} className=" p-4" />
+            <div ref={ref} className="" />
             {/* <button onClick={save}>Save</button> */}
         </>
     )

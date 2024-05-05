@@ -21,6 +21,27 @@ function Sidebar() {
             icon: HomeIcon,
             link: '/',
         },
+        {
+            title: 'Work Ex Intel',
+            icon: HomeIcon,
+            link: '/workex',
+        },
+        {
+            title: 'Jobs Intel',
+            icon: HomeIcon,
+            link: '/jobsintel',
+        },
+        {
+            title: 'Tech Stack Intel',
+            icon: HomeIcon,
+            link: '/techstack',
+        },
+        {
+            title: 'Social Proofs',
+            icon: HomeIcon,
+            link: '/c',
+        },
+
     ];
 
 

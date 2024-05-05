@@ -1,8 +1,7 @@
-import { Inter } from "next/font/google";
+import { GeistSans } from "geist/font/sans";
 import "./globals.css";
 import SideNavbar from "./ui/SideNavbar";
 import TopBar from "./ui/TopBar";
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Create Next App",
@@ -12,7 +11,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-[#fafafa]`}>
+      <body className={`${GeistSans.className} bg-[#fafafa]`}>
         <div className='selection:bg-[#DAF996]'>
           <SideNavbar />
           {/* <Sidebar /> */}

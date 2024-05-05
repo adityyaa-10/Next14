@@ -1,0 +1,57 @@
+[
+  {
+    "Title": "Intern-Software Engineering",
+    "Company": "Cadence Design Systems",
+    "TechStack": "C, C++"
+  },
+  {
+    "Title": "Software Engineer - Stark",
+    "Company": "Rubrik",
+    "TechStack": "Django, Flask, Groovy, Shell script, Argo-CI, Artifactory, Jenkins"
+  },
+  {
+    "Title": "Software Engineer, Full-stack, Core",
+    "Company": "Google",
+    "TechStack": "Python, C, C++, Java, JavaScript, Angular, TypeScript"
+  },
+  {
+    "Title": "Backend Engineer",
+    "Company": "FamPay",
+    "TechStack": "Python, Golang, JavaScript"
+  },
+  {
+    "Title": "Software Engineer (SCM System)",
+    "Company": "Myntra",
+    "TechStack": "Golang, Java, MySQL, MongoDB, Cassandra, Aerospike, Redis, React, Node.js"
+  },
+  {
+    "Title": "Software Development Engineer",
+    "Company": "BharatX",
+    "TechStack": "React.js, Node.js, Typescript, MySQL, Javascript"
+  },
+  {
+    "Title": "Software Development Engineer - I (Frontend)",
+    "Company": "Upstox",
+    "TechStack": "HTML, CSS, Javascript, React.js, Webpack, Enzyme, Redux, Flux"
+  },
+  {
+    "Title": "Software Engineer - CPD",
+    "Company": "Rubrik",
+    "TechStack": "C++, Python, Scala"
+  },
+  {
+    "Title": "SDE I - Android",
+    "Company": "Upstox",
+    "TechStack": "Java, Kotlin, Flutter, React Native"
+  },
+  {
+    "Title": "Data Science Engineer",
+    "Company": "Myntra",
+    "TechStack": "Python, Java, Kafka, Spark, Aerospike, MongoDB"
+  },
+  {
+    "Title": "Product Solution Engineer",
+    "Company": "PhonePe",
+    "TechStack": "C++,  Java, Ruby On Rails, Python, Perl, Shell script"
+  }
+]
