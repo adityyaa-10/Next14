@@ -39,8 +39,13 @@ function Sidebar() {
         {
             title: 'Social Proofs',
             icon: HomeIcon,
-            link: '/c',
+            link: '/socialproofs',
         },
+        {
+            title: 'Wisdom',
+            icon: HomeIcon,
+            link: '/wisdom',
+        }
 
     ];
 
