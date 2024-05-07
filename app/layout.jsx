@@ -15,7 +15,6 @@ export default function RootLayout({ children }) {
         <div className='selection:bg-[#DAF996]'>
           <SideNavbar />
           {/* <Sidebar /> */}
-
         </div>
         <div className="lg:ml-72 selection:bg-[#DAF996]  ">
           <TopBar />

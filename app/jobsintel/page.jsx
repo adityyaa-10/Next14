@@ -1,6 +1,5 @@
-import React from 'react'
-import Card from "@/app/ui/JobsIntel"
-import cardData from "@/app/ui/jobs.json"
+import Card from "@/app/ui/Cards/CardsComponents/JobsIntel"
+import cardData from "@/app/ui/Cards/CardsData/JobsIntel.json"
 import { RiSearchLine } from 'react-icons/ri'
 const JobsIntel = () => {
     return (

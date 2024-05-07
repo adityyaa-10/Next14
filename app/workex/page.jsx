@@ -1,6 +1,6 @@
 import React from 'react'
-import Card from "@/app/ui/TechCard"
-import cardData from "@/app/ui/tech.json"
+import Card from "@/app/ui/Cards/CardsComponents/WorkexCard"
+import cardData from "@/app/ui/Cards/CardsData/Workex.json"
 import { RiSearchLine } from 'react-icons/ri'
 const Courses = () => {
     return (

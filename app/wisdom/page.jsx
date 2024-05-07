@@ -1,8 +1,8 @@
 import React from 'react'
-import Card from "@/app/ui/WisdomCard"
-import cardData from "@/app/ui/wisdom.json"
+import Card from "@/app/ui/Cards/CardsComponents/WisdomCard"
+import cardData from "@/app/ui/Cards/CardsData/Wisdom.json"
 import { RiSearchLine } from 'react-icons/ri'
-const JobsIntel = () => {
+const Wisdom = () => {
     return (
         <>
             <section className='bg-[#fafafa] w-full py-4 px-0 sm:px-4 lg:px-0'>
@@ -48,4 +48,4 @@ const JobsIntel = () => {
     )
 }
 
-export default JobsIntel
+export default Wisdom

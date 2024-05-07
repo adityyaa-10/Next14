@@ -1,10 +1,9 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
 import React, { useState, useEffect } from 'react';
-const TechCard = ({ title, company, yoe }) => {
+const JobsIntel = ({ title, author, content }) => {
     const [isLoading, setIsLoading] = useState(true);
 
-    // Simulate loading effect
     useEffect(() => {
         const timer = setTimeout(() => {
             setIsLoading(false);
@@ -36,25 +35,26 @@ const TechCard = ({ title, company, yoe }) => {
                 </>
             ) : (
                 <div>
-                    <div class="h-[50px] mx-auto bg-white border rounded-md shadow-sm grid grid-cols-4 gap-4 items-center w-full">
-                        <div class="col-span-2">
-                            <div class="overflow-y-auto">
-                                <p class="text-[#0e0e0e] leading-7 tracking-normal ml-4">
-                                    {title}
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-span-1">
-                            <p class="text-blue-600 ml-24 text-base tracking-normal font-medium" tabindex="0" role="link">
-                                {company}
+                    <div className="h-full mx-auto bg-white border rounded-md shadow-sm w-full p-4">
+
+                        <div className='mb-2'>
+                            <p className="text-lg leading-7  text-start font-semibold text-gray-800 tracking-normal">
+                                {title}
                             </p>
                         </div>
-                        <div class="col-span-1">
-                            <h2 href="#" class="text-lg mr-6 leading-7 font-semibold text-gray-800 tracking-normal text-right">
-                                {yoe}
-                            </h2>
+                        <div className="mb-2">
+                            <p className="text-blue-600 text-base tracking-normal font-medium">
+                                {author}
+                            </p>
+                        </div>
+
+                        <div>
+                            <div className="text-[#0e0e0e] leading-7 tracking-normal" dangerouslySetInnerHTML={{ __html: content }} />
+
                         </div>
                     </div>
+
+
 
 
 
@@ -66,4 +66,4 @@ const TechCard = ({ title, company, yoe }) => {
     );
 };
 
-export default TechCard;
+export default JobsIntel;

@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
 import React, { useState, useEffect } from 'react';
-const TechCard = ({ title, author, content }) => {
+const WisdomCard = ({ title, author, content }) => {
     const [isLoading, setIsLoading] = useState(true);
 
     // Simulate loading effect
@@ -37,34 +37,15 @@ const TechCard = ({ title, author, content }) => {
             ) : (
                 <div>
                     <div className="h-full mx-auto bg-white border rounded-md shadow-sm w-full p-4">
-
-                        <div className='mb-2'>
-                            <p className="text-lg leading-7  text-start font-semibold text-gray-800 tracking-normal">
-                                {title}
-                            </p>
-                        </div>
-                        <div className="mb-4">
-                            <p className="text-blue-600 text-base tracking-normal font-medium">
-                                {author}
-                            </p>
-                        </div>
-
-                        <div className="mb-4">
+                        <div className="">
                             <div className="text-[#0e0e0e] leading-7 tracking-normal" dangerouslySetInnerHTML={{ __html: content }} />
-
                         </div>
                     </div>
-
-
-
-
-
                 </div>
-
             )
             }
         </div >
     );
 };
 
-export default TechCard;
+export default WisdomCard;

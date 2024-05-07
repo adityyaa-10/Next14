@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
 import React, { useState, useEffect } from 'react';
-const CoursesCard = ({ title, company, techstack }) => {
+const WorkexCard = ({ title, company, yoe }) => {
     const [isLoading, setIsLoading] = useState(true);
 
     // Simulate loading effect
@@ -36,41 +36,34 @@ const CoursesCard = ({ title, company, techstack }) => {
                 </>
             ) : (
                 <div>
-                    <div className="min-h-56 mx-auto h-full p-4 bg-white border rounded-md shadow-sm flex flex-col justify-between cursor-pointer">
-                        <div>
-                            <div className="mt-2 flex justify-between">
-                                <h2 href="#" className="text-lg leading-7 h-20 text-start font-semibold text-gray-800 tracking-normal">
+                    <div className=" h-full py-3 px-2 mx-auto bg-white border rounded-md shadow-sm grid grid-cols-4 gap-4 items-center w-full">
+                        <div className="col-span-2">
+                            <div className="overflow-y-auto">
+                                <p className="text-[#0e0e0e] leading-7 tracking-normal ml-4">
                                     {title}
-                                </h2>
-                            </div>
-                        </div>
-                        <div className="mt-2 flex flex-col ">
-                            <div className="h-24 overflow-y-auto">
-                                <p className="text-[#0e0e0e] leading-7 tracking-normal">
-                                    {typeof techstack === 'string' && techstack.length > 0 ? (
-                                        techstack.split(',').map((tech, index) => (
-                                            <span key={index} className="inline-block">
-                                                {tech.trim()}
-                                                {index !== techstack.split(',').length - 1 && ' •\u00A0'}
-                                            </span>
-                                        ))
-                                    ) : (
-                                        <span>No technologies specified</span>
-                                    )}
                                 </p>
                             </div>
                         </div>
-                        <div className="">
-                            <p className="text-blue-600 text-base tracking-normal font-medium" tabIndex="0" role="link">
+                        <div className="col-span-1">
+                            <p className="text-blue-600 ml-0 lg:ml-24 text-base tracking-normal font-medium" tabindex="0" role="link">
                                 {company}
                             </p>
                         </div>
+                        <div className="col-span-1">
+                            <h2 href="#" className="text-lg mr-6 leading-7 font-semibold text-gray-800 tracking-normal text-right">
+                                {yoe}
+                            </h2>
+                        </div>
                     </div>
+
+
+
                 </div>
 
-            )}
-        </div>
+            )
+            }
+        </div >
     );
 };
 
-export default CoursesCard;
+export default WorkexCard;

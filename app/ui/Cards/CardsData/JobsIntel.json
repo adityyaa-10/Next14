@@ -1,0 +1,57 @@
+[
+  {
+    "title": "2024 Graduate Software Dev Engineer, Dublin",
+    "author": "Amazon",
+    "content": "<ul><li style=\"margin-left: 14px;\">• Previous technical internship(s) if applicable</li>        <li style=\"margin-left: 14px;\">• Experience with distributed, multi-tiered systems, algorithms, and relational databases</li>        <li style=\"margin-left: 14px;\">• Experience in optimization mathematics such as linear programming and nonlinear optimization</li>    </ul>"
+  },
+  {
+    "title": "Machine Learning Researcher Intern",
+    "author": "Fynd",
+    "content": "<ul>        <li style=\"margin-left: 14px;\">• <strong style=\"font-weight: 550;\">At least one prior internship in the field of computer vision or NLP </strong></li>        <li style=\"margin-left: 14px;\">• A BS, MS, PhD, or equivalent experience in a quantitative field (Computer Science, Applied Mathematics, or related technical field)</li><li style=\"margin-left: 14px;\">• Experience in one or more of the following areas - Image Restoration, Image Enhancement, Unsupervised Learning, Compression, Generative Models, 3D computer vision, Object detection and tracking, or related computer vision topics</li>        <li style=\"margin-left: 14px;\">• Strong background and understanding of mathematical concepts relating to probabilistic models, linear algebra, and probability</li> <li style=\"margin-left: 14px;\">• Knowledge of computer vision/image processing techniques and awareness for existing and trending algorithms and research of the Computer Vision domain</li><li style=\"margin-left: 14px;\">• Programming experience in one or more of the following: C, C++, Python, and/or functional programming languages and deep learning frameworks like Tensorflow/Keras/PyTorch</li> </ul>"
+  },
+  {
+    "title": "ML Intern",
+    "author": "Tower Research Capital",
+    "content": "<ul><li style=\"margin-left: 14px;\">• Prior experience with training, building, and deploying models via Tensorflow/Pytorch (or similar) is mandatory.</li>        <li style=\"margin-left: 14px;\">• Experience with CI/CD pipelines and MLOps for automating model deployments.</li> <li style=\"margin-left: 14px;\">• Experience in optimization mathematics such as linear programming and nonlinear optimization</li><li style=\"margin-left: 14px;\">• Skilled in using Linux, SQL, Git, and BASH scripting </li> </ul>"
+  },
+  {
+    "title": "Data Science Intern",
+    "author": "Jar",
+    "content": "<ul><li style=\"margin-left: 14px;\">• Experience with Python Data Analysis Packages(Pandas, NumPy, Matplotlib, Scikit-Learn) is a must</li>        <li style=\"margin-left: 14px;\">• <strong style=\"font-weight: 550;\">Past internships in Data Science or Machine Learning </strong> </li>   </ul>"
+  },
+  {
+    "title": "Intern, Machine Learning",
+    "author": "Comcast",
+    "content": "<p> Have experience in at least one or more of the following areas -Deep Learning, NLP, Speech Recognition/Audio Analytics, Computer Vision, Data Science, Recommendation Systems, and Reinforcement Learning</p> <h2>Potential projects will focus on (but are not limited to):</h2> <ul><li style=\"margin-left: 14px;\">• Multi-domain natural language understanding and conversational dialogue Machine learning to automatically recognize certain audio events as well as speech </li> <li style=\"margin-left: 14px;\">• Bandit algorithms/reinforcement learning to optimize decision-making in the customer service domain and parameter selection for machine learning applications </li> <li style=\"margin-left: 14px;\">• Object and activity recognition for home security using cameras and other IoT sensors</li> <li style=\"margin-left: 14px;\">• Deep learning for the annotation, segmentation and recognition of broadcast videos and ads</li> <li style=\"margin-left: 14px;\">• Personalized recommendations and search for TV Regular, Consistent and punctual attendance</li> </ul>"
+  },
+  {
+    "title": "Intern- Machine Learning (Gen AI)",
+    "author": "Seagate Technology",
+    "content": "<h2><strong style=\"font-weight: 550;\">Your Experience Includes:</strong></h2><ul style=\"margin-bottom: 8px;\"><li style=\"margin-left: 14px;\">• Proven hands-on or research experience in developing Natural Language Processing models</li><li style=\"margin-left: 14px;\">• Understanding of generative AI tools and techniques</li><li style=\"margin-left: 14px;\">• Strong programming background in Python</li><li style=\"margin-left: 14px;\">• Familiarity with SQL</li><li style=\"margin-left: 14px;\">• In-depth knowledge and working experience on the various aspects of training and deployment of deep learning solutions in TensorFlow or PyTorch</li></ul><h2><strong style=\"font-weight: 550;\">About the Role:</strong></h2>    <ul> <li style=\"margin-left: 14px;\">• Help develop and optimize Large Language Model (LLM) based analytics solutions to revolutionize business operations</li>     <li style=\"margin-left: 14px;\">• Be part of a product team of 6-8 Data Science, ML, and Platform Engineers that are the crux for developing and maintaining Machine Learning/advanced analytics platforms and Big Data solutions</li> <li style=\"margin-left: 14px;\">• Leverage ChatGPT/OpenAI, Azure OpenAI, or Google Vertex AI, or other open-source LLMs to help users intuitively and efficiently access large databases</li><li style=\"margin-left: 14px;\">• Work on seamless integration of LLM models with existing platforms</li></ul>"
+  },
+  {
+    "title": "Tech Internship 2024",
+    "author": "Agoda ",
+    "content": "<p style=\"margin-bottom: 8px;\"> We’d be particularly interested if you possess</p><ul><li style=\"margin-left: 14px;\">• <strong style=\"font-weight: 550;\">Practical experience with Scala, Kotlin, Java, JavaScript, ReactJS, or C# </strong> </li> <li style=\"margin-left: 14px;\">• <strong style=\"font-weight: 550;\"> Previous involvement in developing back-end applications and services, with an understanding of the basics of system scaling. </strong> </li> <li style=\"margin-left: 14px;\">• Familiarity with data platforms such as MS SQL, Cassandra, or Hadoop, recognizing that different applications have unique data needs.</li> <li style=\"margin-left: 14px;\">•  Experience with automated CI/CD systems, a commitment to test-driven development, knowledge of clean software architectures, and a grounding in SOLID principles.</li> </ul>"
+  },
+  {
+    "title": "Product Management Intern",
+    "author": "PhysicsWallah ",
+    "content": "<h2><strong style=\"font-weight: 550;\">Requirements:</strong></h2><ul><li style=\"margin-bottom: 8px;\">• Preferably, at least 1 internship experience in core product management, product analytics, ML operations, AI products, or UX research.</li></ul><h3><strong style=\"font-weight: 550;\">Questions asked in the application form:</strong></h3><ul><li style=\"margin-left: 14px;\">1) Have you earlier worked in core product management?</li><li style=\"margin-left: 14px;\">2) Have you earlier worked in product analytics?</li><li style=\"margin-left: 14px;\">3) Have you earlier worked in ML Ops?</li><li style=\"margin-left: 14px;\">4) Have you earlier worked in AI products?</li><li style=\"margin-left: 14px;\">5) Have you earlier worked in UX research?</li></ul>"
+  },
+  {
+    "title": "Data Scientist, University Graduate, 2024",
+    "author": "Google ",
+    "content": "<p><strong style=\"font-weight: 550;\">Minimum qualifications:</strong></p><ul><li style=\"margin-left: 14px;\">• Master's degree or PhD in Statistics, Biostatistics, Operations Research, Physics, Economics, Applied Mathematics, or similar quantitative discipline, or equivalent practical experience.</li><li style=\"margin-left: 14px;\">• Relevant internship or work experience with data. Experience in quantitative methodologies with statistics and causal inference methods.</li><li style=\"margin-left: 14px;margin-bottom: 8px;\">• Experience with statistical software (e.g., R, Python, S-Plus, SAS, or similar)</li></ul><p><strong style=\"font-weight: 550;\">Preferred qualifications:</strong></p><ul><li style=\"margin-left: 14px;\">• Experience with statistical data analysis such as linear models, multivariate analysis, stochastic models, sampling methods.</li><li style=\"margin-left: 14px;\">• Experience with machine learning on large datasets.</li><li style=\"margin-left: 14px;\">• Ability to draw conclusions from data and recommend actions.</li><li style=\"margin-left: 14px;\">• Ability to teach others and learn new techniques such as differential privacy.</li><li style=\"margin-left: 14px;\">• Ability to select the right statistical tools given a data analysis problem.</li></ul>"
+  },
+  {
+    "title": "Speech Recognition Intern",
+    "author": "Sony Research India ",
+    "content": "<p><strong style=\"font-weight: 550;\">Key Responsibilities:</strong></p><ul><li style=\"margin-left: 14px;\">• Research and Development: Collaborate with our research team to design, implement, and evaluate state-of-the-art speech recognition algorithms and models.</li><li style=\"margin-left: 14px; margin-bottom: 8px;\">• Algorithm Optimization: Work on optimizing existing speech recognition algorithms for enhanced accuracy, speed, and efficiency.</li></ul><p><strong style=\"font-weight: 550;\">Must Have Skills:</strong></p><ul><li style=\"margin-left: 14px;\">• Strong programming skills in Python, shell scripting, PERL</li><li style=\"margin-left: 14px;margin-bottom: 8px;\">• Hands-on deep learning, machine learning (Pytorch, Tensorflow)</li></ul><p><strong style=\"font-weight: 550;\">Good to have skills:</strong></p><ul><li style=\"margin-left: 14px;\">• Expertise in Pytorch</li><li style=\"margin-left: 14px;\">• Prior experience in development of Indian Languages ASR</li></ul>"
+  },
+  {
+    "title": "Large Language Model Internship",
+    "author": "Frontera",
+    "content": "<p><strong style=\"font-weight: 550;\">Responsibilities of the Intern:</strong></p><ul><li style=\"margin-left: 14px;\">• You'll develop code to clean and organize data extracted from research papers. This includes building systems to handle diverse layouts and integrate information from various sources such as webpages, databases, etc.</li><li style=\"margin-left: 14px;margin-bottom: 8px;\"> • You'll assist in fine-tuning a large language model for multiple roles within the behavioral health ecosystem, such as Board Certified Behavior Analysts (BCBAs), Behavior Technicians (BTs), and caregivers. This will involve leveraging knowledge distillation techniques to create smaller, specialized models tailored for each role.</li></ul><p><strong style=\"font-weight: 550;\">Requirements:</strong></p><ul><li style=\"margin-left: 14px;\">• Strong portfolio showcasing expertise in transformers and video foundation models</li><li style=\"margin-left: 14px;\">• Proficiency in deep learning frameworks like PyTorch or TensorFlow, particularly in using transformers for Natural Language Processing (NLP)</li><li style=\"margin-left: 14px;\">• Prior experience with computer vision, video analysis, and text processing is preferred</li></ul>"
+  }
+]

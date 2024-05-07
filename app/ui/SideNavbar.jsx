@@ -6,9 +6,6 @@ import { FaRegBell, FaCog } from 'react-icons/fa';
 import { RiSearchLine } from 'react-icons/ri';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import HomeIcon from '@/app/assets/Home.svg';
-import CompanyIcon from '@/app/assets/Companies.svg';
-import EventsIcon from '@/app/assets/Events.svg';
-import JobIcon from '@/app/assets/Jobs.svg';
 import { usePathname } from 'next/navigation'
 
 function Sidebar() {
