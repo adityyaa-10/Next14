@@ -42,6 +42,11 @@ function Sidebar() {
             title: 'Wisdom',
             icon: HomeIcon,
             link: '/wisdom',
+        },
+        {
+            title: 'Content Library',
+            icon: HomeIcon,
+            link: '/content-library',
         }
 
     ];
