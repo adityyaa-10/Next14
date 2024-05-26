@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from 'next/link'
+import Image from 'next/image'
 const ContentLibrary = ({ url, imgUrl, title, author, description }) => {
     return (
         <Link href={url} target='_blank'>

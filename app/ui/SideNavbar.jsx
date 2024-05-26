@@ -67,7 +67,8 @@ function Sidebar() {
                     <div className="px-6 pt-5 flex flex-row">
                         <div className="font-semibold text-left cursor-pointer text-md border-b border-gray-100 pb-4 w-full">
                             {/* Your logo here */}
-                            <img className="w-24" src="https://images.jumpstart.me/frontend/brand/brand-logo-combined.svg" alt="logo" />
+                            {/* <Image src={'/logo'} alt="logo" /> */}
+                            <h1>logo</h1>
                         </div>
                         <div className="flex">
                             <FaCog className="text-md text-gray-400 mr-1 hidden lg:flex" />
@@ -88,8 +89,8 @@ function Sidebar() {
 
                             </Link>
                         ))}
-                        <div href='/' className="hidden lg:flex items-center px-6 min-w-64 min-h-10 font-semibold active:bg-[#FFF9FA]">
-                            <img src="https://media2.vault.com/14343503/210909_jp-morgan_logo.jpg" className="rounded-full w-6 h-6 mr-4" alt="" />
+                        <div className="hidden lg:flex items-center px-6 min-w-64 min-h-10 font-semibold active:bg-[#FFF9FA]">
+                            <div className='bg-blue-500 w-6 h-6 rounded-full mr-4'></div>
                             <span className="text-sm font-normal leading-[130%]">Aditya Pandey</span>
                         </div>
                         <div className="text-xs capitalize tracking-widest font-normal leading-[150%] pt-8 px-6 pb-3">
