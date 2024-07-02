@@ -12,11 +12,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${GeistSans.className} bg-[#fafafa]`}>
-        <div className='selection:bg-[#DAF996]'>
+        <div className="selection:bg-[#DAF996]">
           <SideNavbar />
           {/* <Sidebar /> */}
         </div>
-        <div className="lg:ml-72 selection:bg-[#DAF996]  ">
+        <div className="selection:bg-[#DAF996] lg:ml-72">
           <TopBar />
           {children}
         </div>

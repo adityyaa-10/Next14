@@ -1,12 +1,11 @@
-import React from 'react';
+import React from "react";
 
 const TopBar = () => {
-    return (
-        <div className="bg-white border-b mt-12 lg:mt-0 lg:top-0 w-full z-10 sticky overflow-x-auto h-24 ">
-            <div className="max-w-screen-lg mx-auto min-h-14 flex items-center ">
-            </div>
-        </div>
-    );
+  return (
+    <div className="sticky z-10 mt-12 h-24 w-full overflow-x-auto border-b bg-white lg:top-0 lg:mt-0">
+      <div className="mx-auto flex min-h-14 max-w-screen-lg items-center"></div>
+    </div>
+  );
 };
 
 export default TopBar;
